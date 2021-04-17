@@ -11,7 +11,7 @@
 '''
 
 def f(x):
-    return len([i for i in x if i==" "])/len([i for i in x if i!=" "]) 
+    pass
 
 if __name__ == '__main__':
     import doctest

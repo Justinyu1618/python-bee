@@ -16,7 +16,7 @@ return
 '''
 
 def f(x):
-    return ("fizzbuzz" if x%5==0 else "fizz") if x%3==0 else ("buzz" if x%5==0 else x)
+    pass
 
 if __name__ == '__main__':
     import doctest

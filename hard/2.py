@@ -19,7 +19,7 @@ the extra elements.
 """
 
 def f(a, b):
-    return [(a[i//2] if i%2==0 else b[i//2]) for i in range(2*(min(len(a),len(b))))]
+    pass
 
 if __name__ == '__main__':
     import doctest

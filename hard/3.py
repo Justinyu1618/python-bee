@@ -9,8 +9,7 @@
 '''
 
 def f(x):
-    aset = {}d = x.split()
-    # i quit
+    pass
 
 if __name__ == '__main__':
     import doctest

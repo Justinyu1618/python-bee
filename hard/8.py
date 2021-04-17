@@ -21,7 +21,7 @@ True
 """
 
 def f(x):
-    return x ==sum([y for y in range(1,x) if x%y==0 ])
+    pass
 
 if __name__ == '__main__':
     import doctest

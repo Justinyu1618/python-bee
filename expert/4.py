@@ -18,10 +18,7 @@ You may not use the itertools module.
 '''
 
 def f(x):
-    # flatten = lambda *n: (e for a in n for e in (flatten(*a) if isinstance(a, (tuple, list)) else (a,)))
-    # return list(flatten(x))
-    # # return x if type(x)!=type([]) else [f(a) for a in x]
-    return [(a if type(a)!=type([]) else (f(b) for b in a)) for a in x] 
+    pass
 if __name__ == '__main__':
     import doctest
     doctest.testmod()

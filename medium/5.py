@@ -10,7 +10,7 @@
 '''
 
 def f(x):
-    return map(lambda y: y+1, x)
+    pass
 
 if __name__ == '__main__':
     import doctest

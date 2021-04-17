@@ -11,7 +11,7 @@
 '''
 
 def f(x):
-    return sum([y for y in  x if y>0])/len([y for y in x if y>0])
+    pass
 
 
 if __name__ == '__main__':

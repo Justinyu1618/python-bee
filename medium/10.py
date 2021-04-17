@@ -10,7 +10,7 @@
 '''
 
 def f(x):
-    return "".join(x.split())
+    pass
 
 if __name__ == '__main__':
     import doctest

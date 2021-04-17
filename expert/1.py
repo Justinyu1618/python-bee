@@ -17,7 +17,7 @@ You may not use the statistics module.
 """
 
 def f(x):
-    return list(set([i for i in x if x.count(i) == max([x.count(i) for i in x])]))
+    pass
 
 if __name__ == '__main__':
     import doctest

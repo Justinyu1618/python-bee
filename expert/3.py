@@ -8,7 +8,7 @@
 '''
 
 def f(a,b):
-    return [x for x in range(a*b+1) if ][0]
+    pass
 
 if __name__ == '__main__':
     import doctest
